@@ -12,5 +12,14 @@ services:
       - nsl-results:/app/results
     restart: unless-stopped
 
+  tunnel:
+    image: cloudflare/cloudflared:latest
+    profiles: ["share"]
+    command: tunnel --no-autoupdate --url http://nsl:10000
+    depends_on:
+      nsl:
+        condition: service_healthy
+    restart: "no"
+
 volumes:
   nsl-results:

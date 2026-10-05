@@ -1,0 +1,9 @@
+{
+  "letter": "O",
+  "source_clip": "dataset/clips/O/O_228325.mp4",
+  "source_video": "Media_5---VID_20250123_075346-1_001",
+  "start_ms": 228325,
+  "end_ms": 228775,
+  "selection": "Existing letter annotation and visual audit; A/I selected from spelling context",
+  "review_status": "Project owner authorized integration; independent linguistic review not performed"
+}

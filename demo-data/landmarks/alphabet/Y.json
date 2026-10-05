@@ -1,0 +1,9 @@
+{
+  "letter": "Y",
+  "source_clip": "dataset/clips/Y/Y_334533.mp4",
+  "source_video": "Media_15---VIDEO 4_1",
+  "start_ms": 334533,
+  "end_ms": 335214,
+  "selection": "Existing letter annotation and visual audit; A/I selected from spelling context",
+  "review_status": "Project owner authorized integration; independent linguistic review not performed"
+}

@@ -1,0 +1,9 @@
+{
+  "letter": "D",
+  "source_clip": "dataset/clips/D/D_799001.mp4",
+  "source_video": "Media_5---VID_20250123_075346-1_001",
+  "start_ms": 799001,
+  "end_ms": 799607,
+  "selection": "Existing letter annotation and visual audit; A/I selected from spelling context",
+  "review_status": "Project owner authorized integration; independent linguistic review not performed"
+}

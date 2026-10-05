@@ -294,11 +294,11 @@ for restoring the data needed by a fresh clone or deployment.
 
 Before committing, review `git status --short` and `git diff --cached --stat`.
 Never force-add ignored secrets or large dataset folders. GitHub preparation does
-not itself deploy the app; Render configuration is included; the dataset still needs a separate
-transfer. See [deployment instructions](DEPLOYMENT.md).
+not itself deploy the app; Render Free configuration includes a small demonstration dataset in the image.
+The full dataset remains local. See [deployment instructions](DEPLOYMENT.md).
 
 ## Docker and Render
 
 Deployment files are included: `Dockerfile`, `.dockerignore`, `compose.yaml`, and
 `render.yaml`. Follow [DEPLOYMENT.md](DEPLOYMENT.md) to push to GitHub, connect a
-Render Blueprint, and transfer the prepared dataset.
+Render Free Blueprint, or share the full local app through a temporary tunnel.

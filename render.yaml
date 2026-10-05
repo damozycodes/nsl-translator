@@ -1,16 +1,12 @@
-# Paid service and disk. Review Render's displayed cost before deploying.
+# Free demonstration: dataset is packaged in the Docker image.
 services:
   - type: web
     name: nsl-translator
     runtime: docker
-    plan: 1c-2g
+    plan: free
     dockerfilePath: ./Dockerfile
     dockerContext: .
     healthCheckPath: /_stcore/health
     envVars:
       - key: PORT
         value: "10000"
-    disk:
-      name: nsl-dataset
-      mountPath: /app/dataset
-      sizeGB: 5
