@@ -1,0 +1,21 @@
+# Python 3.12. MediaPipe still uses its legacy mp.solutions API.
+# Keep one OpenCV distribution: MediaPipe depends on opencv-contrib-python.
+mediapipe==0.10.21
+opencv-contrib-python==4.11.0.86
+numpy==1.26.4
+protobuf==4.25.8
+tensorflow==2.16.2
+streamlit==1.41.1
+contractions==0.1.73
+Pillow==11.3.0
+pympi-ling==1.71
+scikit-learn==1.9.0
+matplotlib==3.11.0
+tqdm==4.68.4
+jax==0.4.28
+jaxlib==0.4.28
+
+# spaCy 3.7 keeps compatibility with the existing NumPy 1.26 stack.
+spacy==3.7.5
+rapidfuzz==3.14.3
+# English model installed separately; see README.

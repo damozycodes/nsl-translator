@@ -1,0 +1,16 @@
+services:
+  nsl:
+    build: .
+    # Match Render's Linux architecture, including on Apple Silicon.
+    platform: linux/amd64
+    ports:
+      - "127.0.0.1:8502:10000"
+    environment:
+      PORT: "10000"
+    volumes:
+      - ./dataset:/app/dataset:ro
+      - nsl-results:/app/results
+    restart: unless-stopped
+
+volumes:
+  nsl-results:

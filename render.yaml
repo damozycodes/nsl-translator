@@ -1,0 +1,16 @@
+# Paid service and disk. Review Render's displayed cost before deploying.
+services:
+  - type: web
+    name: nsl-translator
+    runtime: docker
+    plan: 1c-2g
+    dockerfilePath: ./Dockerfile
+    dockerContext: .
+    healthCheckPath: /_stcore/health
+    envVars:
+      - key: PORT
+        value: "10000"
+    disk:
+      name: nsl-dataset
+      mountPath: /app/dataset
+      sizeGB: 5

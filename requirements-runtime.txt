@@ -1,0 +1,13 @@
+# Web playback only; requirements.txt retains the training environment.
+mediapipe==0.10.21
+opencv-contrib-python==4.11.0.86
+numpy==1.26.4
+protobuf==4.25.8
+streamlit==1.41.1
+contractions==0.1.73
+Pillow==11.3.0
+matplotlib==3.11.0
+jax==0.4.28
+jaxlib==0.4.28
+spacy==3.7.5
+rapidfuzz==3.14.3
